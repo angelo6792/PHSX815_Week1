@@ -87,3 +87,6 @@ if __name__ == "__main__":
 
     # show figure (program only ends once closed
     plt.show()
+    plt.savefig('Random numbers.png')
+    np.savetxt('Random numbers.dat', myx)
+    
