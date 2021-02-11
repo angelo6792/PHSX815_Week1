@@ -1,2 +1,3 @@
 # PHSX815_Week1
- I did it!
+Added lines to save data and plot as a file.
+Added Number_reader.py to read the saved text file and plot. 
