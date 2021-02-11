@@ -13,9 +13,10 @@ data = np.loadtxt('Random numbers.dat')
 n, bins, patches = plt.hist(data, 50, density=True, facecolor='g', alpha=0.75)
 
 
-plt.xlabel('x')
-plt.ylabel('Probability')
+plt.xlabel('x', fontsize = 16, color = "blue")
+plt.ylabel('Probability', fontsize = 16, color = "red")
 plt.title('Uniform random number')
+plt.legend(['cool green bars'], loc = 'upper left')
 plt.grid(True)
 
 plt.show()
