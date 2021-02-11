@@ -85,8 +85,10 @@ if __name__ == "__main__":
     plt.title('Uniform random number')
     plt.grid(True)
 
-    # show figure (program only ends once closed
-    plt.show()
+	#save fig and numbers to text
     plt.savefig('Random numbers.png')
     np.savetxt('Random numbers.dat', myx)
-    
+
+    # show figure (program only ends once closed
+    plt.show()
+   
